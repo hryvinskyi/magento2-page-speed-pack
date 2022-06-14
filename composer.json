@@ -1,0 +1,47 @@
+{
+    "name": "hryvinskyi/magento2-page-speed-pack",
+    "version": "1.0.0",
+    "description": "N/A",
+    "type": "magento2-module",
+    "require": {
+        "magento/framework": "*",
+        "hryvinskyi/magento2-page-speed": "1.0.*",
+        "hryvinskyi/magento2-page-speed-admin-ui": "1.0.*",
+        "hryvinskyi/magento2-page-speed-api": "1.0.*",
+        "hryvinskyi/magento2-page-speed-css": "1.0.*",
+        "hryvinskyi/magento2-page-speed-css-admin-ui": "1.0.*",
+        "hryvinskyi/magento2-page-speed-css-extreme-lazy-load": "1.0.*",
+        "hryvinskyi/magento2-page-speed-css-extreme-lazy-load-admin-ui": "1.0.*",
+        "hryvinskyi/magento2-page-speed-css-extreme-lazy-load-frontend-ui": "1.0.*",
+        "hryvinskyi/magento2-page-speed-css-frontend-ui": "1.0.*",
+        "hryvinskyi/magento2-page-speed-frontend-ui": "1.0.*",
+        "hryvinskyi/magento2-page-speed-js": "1.0.*",
+        "hryvinskyi/magento2-page-speed-js-admin-ui": "1.0.*",
+        "hryvinskyi/magento2-page-speed-js-extreme-lazy-load": "1.0.*",
+        "hryvinskyi/magento2-page-speed-js-extreme-lazy-load-admin-ui": "1.0.*",
+        "hryvinskyi/magento2-page-speed-js-extreme-lazy-load-frontend-ui": "1.0.*",
+        "hryvinskyi/magento2-page-speed-js-merge": "1.0.*",
+        "hryvinskyi/magento2-page-speed-js-merge-admin-ui": "1.0.*",
+        "hryvinskyi/magento2-page-speed-js-merge-frontend-ui": "1.0.*"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-latest"
+    },
+    "authors": [
+        {
+            "name": "Volodymyr Hryvinskyi",
+            "email": "volodymyr@hryvinskyi.com"
+        }
+    ],
+    "license": [
+        "Proprietary"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Hryvinskyi\\PageSpeedPack\\": ""
+        }
+    }
+}
